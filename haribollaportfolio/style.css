@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+#background{
+    background-image: url(images/840843081452.jpg);
+    height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+#logo{
+    width: 40px;
+    height: 25px;
+}
+
+#container{
+    width: 95%;
+    position: fixed;
+    top: 0px;
+    backdrop-filter: blur(45px);
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 52px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    box-shadow: 35px 5px 35px 5px cadetblue;
+}
+#rightside{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left:40px;
+}
+h1{
+    font-size: 38px;
+    padding-top: 85px;
+    margin-top: 56px;
+    color:aqua;
+    text-align: center;
+}
+    #Contact{
+        font-size: 38px;
+        padding-top: 85px;
+        margin-top: 20px;
+        color:rgb(0, 255, 247);
+        text-align: center;
+    }
+    #my_image{
+        margin-left: 150px;
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+        border: 2px solid rgb(89, 80, 70);
+    }
+    #intro{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin: 100px;
+        margin-bottom: 0px;
+        margin-top: 80px;
+        color:darkgray;
+        font-weight: bolder;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #myPassion{
+        margin-top: 50px;
+        line-height: 30px;
+        font-size:35px;
+    }
+    #contact{
+        text-align: center;
+        line-height: 35px;
+        margin-top: 50px;
+        color: cadetblue;
+    }
+    #icon_image{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #main_icon{
+        margin:10px;
+        display: flex;
+        justify-content: center;
+    }
+    #linkedln,#github,#location{
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    #projecticon{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);
+    }
+    #projectName,#link1{
+        margin: 0px;
+        padding: 0px;
+        font-weight:normal;
+        color: beige;
+    }
+    a{
+        text-decoration: none;
+    }
+    #flex_holder{
+        display: flex;
+        justify-content: center;
+    }
+    #flex_holder1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    #project{
+        margin: 100px;
+        margin-bottom: 0px;
+    }
+    #resumeOpener{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 200px;
+    }
+    #Resume_image{
+        margin-right: 400px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);   
+    }
+    #CV_head{
+        padding-top: 0px;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    #resumelink{
+        margin: 0px;
+        line-height: 50px;
+        color: cadetblue;
+    }
+    button{
+        background-color: rgb(0, 128, 255);
+        cursor: pointer;
+        padding: 5px;
+    }
+    h2{
+        width: 100%;
+        position:fixed;
+        bottom: 0px;
+        text-align: center;
+        padding: 15px;
+        background-color: rgb(20, 20, 20);
+        color: blanchedalmond;
+    }
+@media screen and  (max-width: 1440px){
+    
+    h1{
+        font-size: 38px;
+        padding-top: 85px;
+        margin-top: 56px;
+        color:aqua;
+        text-align: center;
+    }
+    #Contact{
+        font-size: 38px;
+        padding-top: 85px;
+        margin-top: 20px;
+        color:rgb(0, 255, 247);
+        text-align: center;
+    }
+    #my_image{
+        margin-left: 150px;
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+        border: 2px solid rgb(89, 80, 70);
+    }
+    #intro{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin: 100px;
+        margin-bottom: 0px;
+        margin-top: 80px;
+        color:darkgray;
+        font-weight: bolder;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #myPassion{
+        margin-top: 50px;
+        line-height: 30px;
+        font-size:35px;
+    }
+    #contact{
+        text-align: center;
+        line-height: 35px;
+        margin-top: 50px;
+        color: cadetblue;
+    }
+    #icon_image{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #main_icon{
+        margin:10px;
+        display: flex;
+        justify-content: center;
+    }
+    #linkedln,#github,#location{
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    #projecticon{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);
+    }
+    #projectName,#link1{
+        margin: 0px;
+        padding: 0px;
+        font-weight:normal;
+        color: beige;
+    }
+    a{
+        text-decoration: none;
+    }
+    #flex_holder{
+        display: flex;
+        justify-content: center;
+    }
+    #flex_holder1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    #project{
+        margin: 100px;
+        margin-bottom: 0px;
+    }
+    #resumeOpener{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 200px;
+    }
+    #Resume_image{
+        margin-right: 400px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);   
+    }
+    #CV_head{
+        padding-top: 0px;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    #resumelink{
+        margin: 0px;
+        line-height: 50px;
+        color: cadetblue;
+    }
+    button{
+        background-color: rgb(0, 128, 255);
+        cursor: pointer;
+        padding: 5px;
+    }
+    h2{
+        width: 100%;
+        position:fixed;
+        bottom: 0px;
+        text-align: center;
+        padding: 15px;
+        background-color: rgb(20, 20, 20);
+        color: blanchedalmond;
+    }
+}
+@media screen and  (max-width: 1100px){
+    h1{
+        font-size: 35px;
+        padding-top: 70px;
+        margin-top: 46px;
+        color:aqua;
+        text-align: center;
+    }
+    #Contact{
+        font-size: 30px;
+        padding-top: 85px;
+        margin-top: 15px;
+        color:rgb(0, 255, 247);
+        text-align: center;
+    }
+    #my_image{
+        margin-left: 100px;
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+        border: 2px solid rgb(89, 80, 70);
+    }
+    #intro{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin: 80px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        color:darkgray;
+        font-weight: bolder;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #myPassion{
+        margin-top: 50px;
+        line-height: 30px;
+        font-size:35px;
+    }
+    #contact{
+        text-align: center;
+        line-height: 30px;
+        margin-top: 50px;
+        color: cadetblue;
+    }
+    #icon_image{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #main_icon{
+        margin:10px;
+        display: flex;
+        justify-content: center;
+    }
+    #linkedln,#github,#location{
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    #projecticon{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);
+    }
+    #projectName{
+        margin: 0px;
+        padding: 0px;
+        font-weight:normal;
+        color: beige;
+    }
+    a{
+        text-decoration: none;
+    }
+    #flex_holder{
+        display: flex;
+        justify-content: center;
+    }
+    #flex_holder1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    #project{
+        margin: 70px;
+        margin-bottom: 0px;
+    }
+    #resumeOpener{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 200px;
+    }
+    #Resume_image{
+        margin-right: 400px;
+        width: 130px;
+        height: 130px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);   
+    }
+    #CV_head{
+        padding-top: 0px;
+        padding-top: 18px;
+        margin-bottom: 40px;
+    }
+    #resumelink{
+        margin: 0px;
+        line-height: 45px;
+        color: cadetblue;
+    }
+    button{
+        background-color: rgb(0, 128, 255);
+        cursor: pointer;
+        padding: 4px;
+    }
+    h2{
+        width: 100%;
+        position:fixed;
+        bottom: 0px;
+        text-align: center;
+        padding: 15px;
+        background-color: rgb(20, 20, 20);
+        color: blanchedalmond;
+    }
+}
+@media screen and  (max-width: 800px){
+    #intro{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #my_image{
+        margin-left:0px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        border: 2px solid rgb(89, 80, 70);
+    }
+    #project{
+        margin: 50px;
+        margin-bottom: 0px;
+    }
+    #projecticon{
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);
+    }
+    #flex_holder1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    #Contact{
+        font-size: 30px;
+        padding-top: 80px;
+        margin-top: 10px;
+        color:rgb(0, 255, 247);
+        text-align: center;
+    }
+    #contact{
+        text-align: center;
+        line-height: 30px;
+        margin-top: 20px;
+        color: cadetblue;
+    }
+}
+@media screen and  (max-width: 600px){
+    #logo{
+        width: 30px;
+        height: 23px;
+    }
+
+    #container{
+        width: 92%;
+        position: fixed;
+        top: 0px;
+        backdrop-filter: blur(45px);
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        padding: 15px;
+        padding-right: 60px;
+        margin-bottom: 40px;
+        border: 2px solid black;
+        box-shadow: 35px 5px 35px 5px cadetblue;
+    }
+    #rightside{
+        text-decoration: none;
+        color: aliceblue;
+        margin-left:20px;
+    }
+    h1{
+        font-size: 25px;
+        padding-top: 70px;
+        margin-top: 46px;
+        color:aqua;
+        text-align: center;
+    }
+    #my_image{
+        margin-left: 0px;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        border: 2px solid rgb(89, 80, 70);
+    }
+    p{
+        margin: 80px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        color:darkgray;
+        font-weight: bolder;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #myPassion{
+        margin-top: 10px;
+        line-height: 20px;
+        font-size:25px;
+    }
+    #contact{
+        text-align: center;
+        line-height: 20px;
+        margin-top: 20px;
+        color: cadetblue;
+    }
+    #icon_image{
+        width: 22px;
+        height: 22px;
+        border-radius: 5px;
+    }
+    #main_icon{
+        margin:5px;
+        display: flex;
+        justify-content: center;
+    }
+    #linkedln,#github,#location{
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    #projecticon{
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);
+    }
+    #project{
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+    #resumeOpener{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    #Resume_image{
+        margin-right: 250px;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);   
+    }
+    #CV_head{
+        padding-top: 0px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    #resumelink{
+        margin-left: 20px;
+        line-height: 20px;
+        color: cadetblue;
+    }
+}
+@media screen and  (max-width: 400px){
+    #resumeOpener{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 150px;
+    }
+    #Resume_image{
+        margin-left: 250px;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377), 0 20px 40px rgba(0, 0, 0, 0.2);
+        border: 5px solid rgb(38, 38, 38);   
+    }
+    #resumelink{
+        display: none;
+    }
+}
